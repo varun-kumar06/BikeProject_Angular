@@ -1,0 +1,30 @@
+
+
+
+.bike-container {
+    text-align: center;
+  }
+  
+  .log-container{
+  text-align: center;
+  
+  }
+  
+  .bike-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    display: inline-block;
+    width: 200px;
+    transition: transform 0.2s;
+  }
+  
+  .bike-card img {
+    width: 100%;
+    border-radius: 4%;
+  }
+  
+  .bike-card:hover {
+    transform: scale(2.00);
+  }
